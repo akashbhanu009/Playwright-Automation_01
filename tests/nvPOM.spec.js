@@ -4,6 +4,7 @@ import { Project } from '../pages/nvPOM';
 import dataset from '../utils/nvPomDATA.json';
 import {customTest} from '../utils/customFixture';
 
+
 for (const data of dataset) {
     test(`new vision project with ${data.fn}`, async ({ page }) => {
         const nvPrj = new Project(page);
@@ -19,6 +20,8 @@ for (const data of dataset) {
         );
     });
 }
+
+console.log('Running test with custom fixture and data from JSON file');
 
 customTest('new vision project with custom data', async ({ page, testDataForForm }) => {
     const nvPrj = new Project(page);
