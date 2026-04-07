@@ -1,0 +1,5 @@
+Consultant selected from the drop-down:  consult
+Checkbox is selected:  true
+Checkbox is selected:  false
+User option selected:  user
+Okay btn selected under dialog pop-up:  true

@@ -1,0 +1,23 @@
+POST response body: {
+  id: 'ff8081819d3fcc30019d4d91e5ce175b',
+  name: 'John Doe',
+  createdAt: 1775122900430,
+  data: {
+    year: 2006,
+    price: 1000.99,
+    'CPU model': 'Intel Core i9',
+    'Hard disk size': '1 TB'
+  }
+}
+PUT response body: {
+  id: 'ff8081819d3fcc30019d4d91e5ce175b',
+  name: 'John Doe',
+  updatedAt: 1775122900852,
+  data: {
+    year: 2006,
+    price: 1000.99,
+    'CPU model': 'Intel Core i9',
+    'Hard disk size': '1 TB',
+    color: 'Black'
+  }
+}
