@@ -49,7 +49,7 @@ test('Page playwright test', async ({ page }) => {
 });
 
 
-test.only('UI Controls drop-drown', async ({ page }) => {
+test('UI Controls drop-drown', async ({ page }) => {
   await page.pause();
   await page.goto('https://rahulshettyacademy.com/loginpagePractise/');
   const userName = page.locator('#username');

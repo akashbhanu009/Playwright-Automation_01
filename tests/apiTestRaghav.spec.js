@@ -37,7 +37,7 @@ test('POST [add object] API test', async ({request}) => {
 
 
 
-test.only('update using PUT [update object] API test', async ({request}) => {
+test('update using PUT [update object] API test', async ({request}) => {
 
     const createPayload = {
         name: 'John Doe',
